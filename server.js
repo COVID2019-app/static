@@ -11,5 +11,5 @@ server.get('/', (req, res) => {
     res.status(200).send('LIVE.html')
   })
   server.listen(port,()=>{
-    console.log(`Up on port ${por}`)
+    console.log(`Up on port ${port}`)
 })
